@@ -12,24 +12,17 @@ import com.basic.mvpdaggerretrofit.di.qualifier.MakeupUrl;
 import com.basic.mvpdaggerretrofit.di.qualifier.MovieUrl;
 import com.jakewharton.retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory;
 
-import java.io.File;
-import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
 import javax.inject.Singleton;
 
 import dagger.Module;
 import dagger.Provides;
-
 import okhttp3.OkHttpClient;
-
 import okhttp3.logging.HttpLoggingInterceptor;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
-/**
- * Created by codeest on 2017/2/26.
- */
 
 @Module
 public class HttpModule {
